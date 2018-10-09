@@ -1,0 +1,436 @@
+
+p {
+  color: #a8a8aa;
+}
+
+/* header */
+.pagalbinis-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li {
+  text-decoration: none;
+
+}
+
+.menu li:first-child {
+  padding-left: 0;
+}
+
+.menu li:last-child {
+  padding-right: 0;
+}
+
+.menu li a {
+  color:black;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.menu li a:hover {
+  background-color: #d52881;
+  color:white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* aprasymas */
+
+.pagalbinis-aprasymas {
+  padding-top: 60px;
+}
+
+.wrapper {
+  width: 70%;
+}
+
+.wrapper p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .pagalbinis-header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+/* slider */
+
+.background-slider {
+  padding-top: 60px;
+}
+
+.background-slider img {
+  width: 100%;
+  height: auto;
+}
+
+/* turinys */
+
+.background-turinys {
+  padding-top: 60px;
+}
+
+.wrapper-turinys {
+  width: 70%;
+  text-align: justify;
+}
+
+.wrapper-turinys p {
+  text-indent: 30px;
+}
+
+/* mentoriai */
+
+.background-mentoriai {
+  padding-top: 60px;
+}
+
+.pagalbinis-mentoriai {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.pagalbinis-mentoriai h3 {
+  padding-bottom: 30px;
+}
+
+.pagalbinis-mentoriai p {
+  font-size: 14px;
+}
+
+/* galerija */
+
+.background-galerija {
+  padding-top: 60px;
+}
+
+.pagalbinis-galerija, .pagalbinis-galerija2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.nuotraukos {
+  width: 15%;
+  height: 50%;
+  text-align: center;
+  margin: 0 5px;
+
+}
+
+.nuotraukos img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 1px solid #a8a8aa;
+}
+
+.nuotraukos h3 {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.nuotraukos p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+  .nuotraukos {
+    width: 30%;
+  }
+}
+/* mygtukai */
+.background-mygtukai {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.mygtukai {
+  text-align: center;
+}
+
+.nuotraukos span {
+  font-weight: 700;
+}
+/* kazkas */
+
+.pagalbinis-kazkas {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.pagalbinis-kazkas h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+/* turinys 2 */
+
+.background-turinys2 {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(img/pink_bg.png);
+  background-size:  100% 100%;
+}
+
+.pagalbinis-turinys2 {
+  padding-top: 50px;
+}
+
+
+/* programos */
+
+.background-programos {
+  padding-top: 60px;
+}
+
+.eiga {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.pagalbinis-programos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper-Programos {
+  width: 30%;
+  height: auto;
+  padding: 10px 30px;
+}
+
+.programos img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .pagalbinis-programos {
+    flex-direction: column;
+  }
+  .wrapper-Programos{
+    width: 100%;
+  }
+}
+/* komanda */
+
+.background-komanda {
+  padding-bottom: 40px;
+}
+
+.background-komanda p {
+font-size: 12px;
+}
+
+/* galerija 2 */
+
+.background-galerija2 {
+  padding-top: 60px;
+}
+
+.pagalbinis-galerija2 {
+  justify-content: flex-start;
+}
+
+.pagalbinis-galerija2 .nuotraukos ul {
+  padding-left: 0;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .pagalbinis-galerija2 {
+    justify-content: space-between;
+  }
+  .pagalbinis-galerija2 .nuotraukos {
+    width: 25%;
+  }
+}
+/* patarejai */
+
+.patarejai {
+  padding-bottom: 60px;
+}
+
+.main {
+  padding-top: 60px;
+}
+
+/* remejai/draugai */
+
+.background-remejai h3 {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.pagalbinis-remejai {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pagalbinis-remejai img {
+  width: auto;
+  max-height: 70px;
+  padding: 10px;
+}
+
+/* forma */
+.background-forma {
+  padding: 60px 0;
+}
+
+.forma {
+  width: 75%;
+}
+
+.forma td {
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+}
+
+.forma input {
+  border: none;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 24px;
+}
+
+.forma .border {
+  border:none !important;
+  padding-top: 40px;
+}
+
+.border button {
+  background-color: #d52881;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.forma input:focus {
+  outline: none;
+}
+
+.background-forma img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+.background-footer {
+  background-color: #26254f;
+}
+
+.pagalbinis-footer {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.footer-icons a {
+  padding:0 5px;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-footer ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-footer ul li {
+  align-items: center;
+  list-style: none;
+}
+
+.menu-footer ul li a {
+  color: #a8a8aa;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.pagalbinis-copyrights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kita {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.kita p {
+  padding-left: 20px;
+}
+
+.kita a {
+  color: #a8a8aa;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 996px) {
+  .pagalbinis-copyrights {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .pagalbinis-footer {
+    flex-direction: column;
+  }
+.menu-footer ul {
+  flex-direction: column;
+  }
+}
